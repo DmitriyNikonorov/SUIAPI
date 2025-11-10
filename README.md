@@ -1,8 +1,5 @@
 # SUIAPI
 Artworks & Disney Characters API Client
-https://img.shields.io/badge/Swift-5.7+-orange.svg
-https://img.shields.io/badge/Platform-iOS%2520%257C%2520macOS%2520%257C%2520tvOS%2520%257C%2520watchOS-lightgrey.svg
-https://img.shields.io/badge/SPM-Compatible-brightgreen.svg
 
 📖 Описание
 Swift Package Manager модуль для работы с API художественных произведений и персонажей Disney. Модуль предоставляет удобный клиент для доступа к данным о произведениях искусства и персонажах из вселенной Disney.
