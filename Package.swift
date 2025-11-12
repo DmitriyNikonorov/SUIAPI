@@ -15,23 +15,14 @@ let package = Package(
             targets: ["SUIAPI"]),
     ],
     dependencies: [
-        // Внешние зависимости (если нужны)
-        // .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.8.0"),
-        // .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "6.6.0"),
     ],
     targets: [
         .target(
             name: "SUIAPI",
-            dependencies: [
-                // "Alamofire",
-                // "RxSwift"
-            ],
+            dependencies: [],
             path: "API",
-            // resources: [
-            //     .process("Resources/Config.plist") // если есть ресурсы
-            // ],
             swiftSettings: [
-                .enableExperimentalFeature("StrictConcurrency") // опционально
+                .enableExperimentalFeature("StrictConcurrency")
             ]
         ),
     ],
