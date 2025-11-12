@@ -1,8 +1,5 @@
 # SUIAPI
 Artworks & Disney Characters API Client
-https://img.shields.io/badge/Swift-5.7+-orange.svg
-https://img.shields.io/badge/Platform-iOS%2520%257C%2520macOS%2520%257C%2520tvOS%2520%257C%2520watchOS-lightgrey.svg
-https://img.shields.io/badge/SPM-Compatible-brightgreen.svg
 
 📖 Описание
 Swift Package Manager модуль для работы с API художественных произведений и персонажей Disney. Модуль предоставляет удобный клиент для доступа к данным о произведениях искусства и персонажах из вселенной Disney.
@@ -24,7 +21,7 @@ Swift Package Manager
 
 swift
 dependencies: [
-    .package(url: "https://github.com/DmitriyNikonorov/SUIAPI", from: "1.0.0")
+    .package(url: "https://github.com/DmitriyNikonorov/SUIAPI")
 ]
 Или через Xcode:
 
@@ -91,7 +88,7 @@ do {
 
 🏗 Архитектура
 Основные компоненты
-text
+```text
 API/
 ├── APIs/
 │   ├── ArtworksAPI.swift          // API для художественных произведений
@@ -107,23 +104,16 @@ API/
 |
 ├── APIHelper.swift                // Базовый хелпер для API
 └── URLSessionImplementations.swift // Реализации сетевых запросов
-
-
+```
 
 
 
 Модели данных
 Artwork - информация о художественном произведении
-
-ArtworkAltTitles - альтернативные названия
-
 DimensionsDetail - размеры произведения
-
-Thumbnail - миниатюрные изображения
-
 DisneyCharacter - данные о персонаже Disney
 
-Pagination - пагинация для больших наборов данных
+
 
 📋 Требования
 iOS 13.0+
